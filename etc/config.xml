@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Gento <desarrollo@gento.com.ar>, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <redsys>
+                <active>0</active>
+                <title>Redsys</title>
+                <model>Gento\Redsys\Model\Payment\Redsys</model>
+                <secure_url>1</secure_url>
+            </redsys>
+        </payment>
+    </default>
+</config>

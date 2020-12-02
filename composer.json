@@ -1,0 +1,22 @@
+{
+    "name": "gento-arg/module-redsys",
+    "description": "Integracion con redsys",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.2",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gento\\Redsys\\": ""
+        }
+    }
+}

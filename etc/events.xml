@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Gento <desarrollo@gento.com.ar>, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="gento_redsys_orden_autorizada">
+        <observer name="redsys_actualizar_orden_autorizada" instance="Gento\Redsys\Observer\ActualizarOrden" />
+        <observer name="redsys_aprobar_orden_autorizada" instance="Gento\Redsys\Observer\AprobarOrden" />
+    </event>
+</config>
